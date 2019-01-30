@@ -1,10 +1,14 @@
 # bamazon
+
+*********************demo video in video folder************************
+also link to google drive to watch the demo video (https://drive.google.com/file/d/1bhTH4zwPduV-6QH0m54YcWyoLiveND6y/view)
+
 -This app has two options.
     -Option 1: bamazoncustomer.js
     -Option 2: bamazonmanager.js
 
 Option 1: bamazoncustomer
-Start this by running node bamazoncustomer.js in the command line.
+Start by running node bamazoncustomer.js in the command line.
  This will show you a list of all the products available. Each product will show the id number, product name, department, price, stock avaiable.
 
  - You can then choose to purchase a product by entering in the product ID you would like to buy.
@@ -15,7 +19,7 @@ Start this by running node bamazoncustomer.js in the command line.
  - You will then be asked if you want to buy more items or NO and the connection is closed.
 
  Option 2: bamazonmanager
-  Start this by running node bamazonmanager.js in the command line.
+  Start by running node bamazonmanager.js in the command line.
   This will prompt a menu to choose from 
     - View Products
     - View Low Inventory
