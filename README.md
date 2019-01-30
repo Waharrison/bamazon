@@ -9,11 +9,13 @@ Start this by running node bamazoncustomer.js in the command line.
 
  - You can then choose to purchase a product by entering in the product ID you would like to buy.
  - Then you can choose how many you would like to buy.
-
- You will then be notified the item is in stock or the item is out of stock, It will show how many you bought and the total price for the purchase. It will then show you how many of that item are left in stock. You can then repeat and buy more items.
+ - You will then be notified the item is in stock or the item is out of stock.
+ - It will show how many you bought and the total price for the purchase.
+ - It will then show you how many of that item are left in stock.
+ - You will then be asked if you want to buy more items or NO and the connection is closed.
 
  Option 2: bamazonmanager
-  Star this by running node bamazonmanager.js in the command line.
+  Start this by running node bamazonmanager.js in the command line.
   This will prompt a menu to choose from 
     - View Products
     - View Low Inventory
