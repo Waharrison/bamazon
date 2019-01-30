@@ -49,7 +49,7 @@ var display = function () {
     var query = connection.query("SELECT * FROM products", function (err, res) {
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
-            console.log("-----------------------------")
+           
             console.log(res[i].id + " | ", res[i].product_name + " | ", res[i].department_name + " | ", res[i].price + " | ", res[i].stock_quantity);
             console.log("-----------------------------")
         };
@@ -80,7 +80,7 @@ var startOver = function () {
 var lowInventory = function () {
     connection.query("SELECT * FROM products", function (err, resl) {
         if (err) throw err;
-        console.log("Products with 1000 or more units");
+        console.log("Products with 500 or more units");
         for (var i = 0; i < resl.length; i++) {
             if (resl[i].stock_quantity >= 500) {
                 console.log(resl[i].id + " | ", resl[i].product_name + " | ", resl[i].department_name + " | ", resl[i].price + " | ", resl[i].stock_quantity);
